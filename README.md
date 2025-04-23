@@ -12,7 +12,7 @@ Um projeto pessoal desenvolvido para criar uma página de links sociais interati
 
 ## 📋 Descrição
 
-O Social-Link-V1 é uma página web responsiva que serve como um hub central para os links sociais do desenvolvedor. O projeto apresenta uma interface moderna e interativa, com animações e efeitos visuais.
+O Social-Link é uma página web responsiva que serve como um hub central para os links sociais do desenvolvedor. O projeto apresenta uma interface moderna e interativa, com animações e efeitos visuais.
 
 ## ✨ Funcionalidades
 
