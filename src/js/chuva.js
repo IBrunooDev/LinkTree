@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   const container = document.querySelector('.rain-container');
-  const numberOfDrops = 100; // Quantas gotas de chuva
+  const numberOfDrops = 150; // Quantas gotas de chuva
 
   for (let i = 0; i < numberOfDrops; i++) {
     const drop = document.createElement('div');
@@ -20,3 +20,4 @@ document.addEventListener("DOMContentLoaded", function() {
     container.appendChild(drop);
   }
 });
+
