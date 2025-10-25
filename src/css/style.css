@@ -1,0 +1,456 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+/* teste */
+
+/* Animação de transição das imagens */
+.photo-container img.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.code {
+  display: flex;
+}
+
+body {
+  background-image: url("/src/img/Banner-GIF.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin-top: 1px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  font-family: monospace;
+  border-right: 4px;
+  width: 20 ch;
+  white-space: nowrap;
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+
+  animation: typing 2s steps(10), blinking 0.5s infinite step-end;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
+}
+
+h6 {
+  font-family: monospace;
+  padding: 9px;
+  border-right: 4px;
+  width: 41ch;
+  white-space: nowrap;
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+
+  animation: typing 2s steps(10), blinking 0.5s infinite step-end;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#btn-0 {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 0, 0, 0);
+  /* background-image: url("./img/Banner-1.gif"); */
+  background-size: cover;
+  width: 300px;
+  height: 50px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 1s;
+
+  border-style: solid;
+
+  border-width: 1px;
+}
+
+#btn-1 {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 0, 0, 0);
+  /* background-image: url("./img/Banner-1.gif"); */
+  background-size: cover;
+  width: 300px;
+  height: 50px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 1s;
+
+  border-style: solid;
+
+  border-width: 1px;
+}
+
+#btn-2 {
+  background-color: rgba(255, 0, 0, 0);
+  /* background-image: url("./img/Banner-1.gif"); */
+  background-size: cover;
+  width: 300px;
+  height: 50px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 1s;
+
+  border-style: solid;
+
+  border-width: 1px;
+}
+
+#btn-3 {
+  background-color: rgba(255, 0, 0, 0);
+  /* background-image: url("./img/Banner-1.gif"); */
+  background-size: cover;
+  width: 300px;
+  height: 50px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 1s;
+
+  border-style: solid;
+
+  border-width: 1px;
+}
+
+#btn-4 {
+  background-color: rgba(255, 0, 0, 0);
+  /* background-image: url("./img/Banner-1.gif"); */
+  background-size: cover;
+  width: 300px;
+  height: 50px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 1s;
+
+  border-style: solid;
+
+  border-width: 1px;
+}
+
+#btn-5 {
+  background-color: rgba(255, 0, 0, 0);
+  /* background-image: url("./img/Banner-1.gif"); */
+  background-size: cover;
+  width: 300px;
+  height: 50px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 1s;
+
+  border-style: solid;
+
+  border-width: 1px;
+}
+
+#btn-6 {
+  background-color: rgba(255, 0, 0, 0);
+  /* background-image: url("./img/Banner-1.gif"); */
+  background-size: cover;
+  width: 300px;
+  height: 50px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 1s;
+
+  border-style: solid;
+
+  border-width: 1px;
+}
+
+#btn-7 {
+  background-color: rgba(255, 0, 0, 0);
+  /* background-image: url("./img/Banner-1.gif"); */
+  background-size: cover;
+  width: 300px;
+  height: 50px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 1s;
+
+  border-style: solid;
+
+  border-width: 1px;
+}
+
+.btn {
+  background-color: rgba(255, 0, 0, 0);
+  /* background-image: url("./img/Banner-1.gif"); */
+  background-size: cover;
+  width: 300px;
+  height: 50px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 1s;
+
+  border-style: solid;
+
+  border-width: 1px;
+}
+
+#btn-0:hover {
+  background-color: rgba(130, 130, 130, 0.379);
+  transform: translateY(-10px);
+}
+
+#btn-1:hover {
+  background-color: rgba(130, 130, 130, 0.379);
+  transform: translateY(-10px);
+}
+
+#btn-2:hover {
+  background-color: rgba(130, 130, 130, 0.379);
+  transform: translateY(-10px);
+}
+
+#btn-3:hover {
+  background-color: rgba(130, 130, 130, 0.379);
+  transform: translateY(-10px);
+}
+
+#btn-4:hover {
+  background-color: rgba(130, 130, 130, 0.379);
+  transform: translateY(-10px);
+}
+
+#btn-5:hover {
+  background-color: rgba(130, 130, 130, 0.379);
+  transform: translateY(-10px);
+}
+
+#btn-6:hover {
+  background-color: rgba(130, 130, 130, 0.379);
+  transform: translateY(-10px);
+}
+
+#btn-7:hover {
+  background-color: rgba(130, 130, 130, 0.379);
+  transform: translateY(-10px);
+}
+
+.btn:hover {
+  background-color: rgba(130, 130, 130, 0.379);
+  transform: translateY(-10px);
+}
+
+#instagram {
+  font-size: 16px;
+}
+
+#LinkedIn {
+  font-size: 16px;
+}
+
+#Github {
+  font-size: 16px;
+}
+
+#spotify {
+  font-size: 16px;
+}
+
+#twitch {
+  font-size: 16px;
+}
+
+#discord {
+  font-size: 16px;
+}
+
+#curso {
+  font-size: 16px;
+}
+
+.author {
+  font-size: 14px;
+  margin-bottom: 20px;
+  footer{
+    position: fixed;
+  }
+}
+
+img {
+  border-radius: 100px;
+  height: 120px;
+  width: 120px;
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translatey(-30px) rotate(0deg);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  height: 50px;
+  opacity: 0.6;
+  font-family: sans-serif;
+}
+
+footer > div > p > a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+footer > div > p > a:hover {
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+footer > div > p {
+  margin-top: 20px;
+  color: white;
+}
+
+.music-player {
+  text-align: center;
+
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  padding: 10px 10px;
+
+  background-color: rgba(255, 0, 0, 0.742);
+  color: #fff;
+  border: 50px;
+  cursor: pointer;
+  margin: 5px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+audio {
+  width: 100%;
+}
+
+.veigh {
+  display: none;
+}
+
+/* Neve efeito */
+
+.snow-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.snow {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  animation: snowfall linear infinite;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translateY(-10vh) rotate(0deg);
+  }
+
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+
+
+/* Chuva */
+
+.rain-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.raindrop {
+  position: absolute;
+  top: -20px; /* Começa acima da tela */
+  background: rgb(255, 255, 255); /* Cor da chuva */
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh); /* Cai até o fim da tela */
+  }
+}
