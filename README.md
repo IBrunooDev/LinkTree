@@ -41,7 +41,7 @@ O Social-Link é uma página web responsiva que serve como um hub central para o
     ├── js/
     │   ├── script.js
     │   ├── animate-on-scroll.js
-    │   └── neve.js
+    │   └── chuva.js
     ├── img/
     └── audio/
 ```
