@@ -4,7 +4,8 @@
  <a href="https://iibrunoodev.netlify.app/">Clique Aqui para ir ao Site</a><br/>
 </p>
 
-<img width="1351" height="515" alt="image" src="https://github.com/user-attachments/assets/90a84ff3-80c0-4e47-b79c-11dddd318bd2" />
+
+<img width="1351" height="518" alt="image" src="https://github.com/user-attachments/assets/22af6ae1-600d-4240-94de-cc0505f7a589" />
 
 
 Um projeto pessoal desenvolvido para criar uma página de links sociais interativa e estilizada.
